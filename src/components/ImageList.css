@@ -1,6 +1,8 @@
 .image-list{
     columns: 6 200px;
-    column-gap: 10px
+    column-gap: 10px;
+    margin: 40px;
+   
 }
 img{
     width: 100%;
@@ -8,4 +10,12 @@ img{
 
 
 
+}
+
+.list-container {
+    
+    
+    margin: 30px;
+    
+    border: 5px solid rgb(105, 161, 157);
 }

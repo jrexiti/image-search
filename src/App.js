@@ -11,9 +11,11 @@ function App() {
         setImages(result)
 
     }
-  return <div>
+  return <div className="full-page">
       <SearchBar onSubmit={handleSubmit} />
+      <div className="list-container">
       <ImageList images={images} />
+      </div>
   </div>;
 }
 
